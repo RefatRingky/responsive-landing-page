@@ -1,0 +1,28 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: darkgrey;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.player{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.player-name{
+    padding-left: 5px;
+}
+.player img{
+    width: 56px;
+}
